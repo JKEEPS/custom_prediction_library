@@ -5,8 +5,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="custom_prediction_library",
-    version="0.3.1",
+    name="custom_prediction_lib",
+    version="0.3.0",
     packages=find_packages(),
     install_requires=[
         "scikit-learn",
@@ -18,8 +18,8 @@ setup(
         "bokeh",
     ],
     description="A custom prediction library with automated hyperparameter tuning, training utilities, exponential smoothing, and visualisation.",
-    long_description=long_description,  # Include the README content
-    long_description_content_type="text/markdown",  # Specify the content type
+    long_description=long_description,  # Add this field
+    long_description_content_type="text/markdown",  # Specify Markdown format
     author="Your Name",
     author_email="your.email@example.com",
     license="MIT",
